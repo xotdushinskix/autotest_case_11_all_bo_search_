@@ -9,7 +9,7 @@ import searchMethods
 class MyTestCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.get('http://admin:skdf%24%23%26%26%25tg@gepard.bintime.com/admin')
+        self.driver.get('http://admin:secret@gepard.bintime.com/admin')
 
 
 
